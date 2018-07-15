@@ -169,7 +169,7 @@ header.masthead {
   color: white;
   /* background: asset-url('assets/goldenGate.jpg'); */
   /* background-image: url("<%= asset_path('goldenGate.jpg') %>"); */
-  background: asset-url('goldenGate.jpg') no-repeat;
+  background: image-url('goldenGate.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
