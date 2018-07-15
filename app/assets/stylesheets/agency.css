@@ -167,7 +167,8 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background: asset-url('assets/goldenGate.jpg');
+  /* background: asset-url('assets/goldenGate.jpg'); */
+  background-image: url("<%= asset_path('goldenGate.jpg') %>");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
