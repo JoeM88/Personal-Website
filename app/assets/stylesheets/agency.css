@@ -168,7 +168,9 @@ header.masthead {
   text-align: center;
   color: white;
   /* background: asset-url('assets/goldenGate.jpg'); */
-  background-image: url("<%= asset_path('goldenGate.jpg') %>");
+  /* background-image: url("<%= asset_path('goldenGate.jpg') %>"); */
+  background: url( asset-path('goldenGate.jpg') ) no-repeat;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
