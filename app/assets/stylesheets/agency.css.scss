@@ -169,8 +169,8 @@ header.masthead {
   color: white;
   /* background: asset-url('assets/goldenGate.jpg'); */
   /* background-image: url("<%= asset_path('goldenGate.jpg') %>"); */
-  background: image-url('goldenGate.jpg');
-  background-color: lightblue;
+  // background: image-url('goldenGate.jpg');
+  background: blue;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -178,7 +178,7 @@ header.masthead {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: 100%;
 }
 
 header.masthead .intro-text {
